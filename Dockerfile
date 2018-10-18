@@ -9,4 +9,4 @@ RUN mkdir /usr/local/bin/fake \
     && unzip ./fake.zip \
     && chmod +x /usr/local/bin/fake/fake
 
-#ENTRYPOINT ["/usr/local/bin/fake/fake", "run"]
+ENTRYPOINT ["/usr/local/bin/fake/fake", "run"]
